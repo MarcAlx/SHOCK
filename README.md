@@ -12,7 +12,7 @@ A plateform game made in Python3
 
 "resources" contains all source file to recreate assets.
 
-## Knonw limitation
+## Known limitation
 
 - Created on OSX this game may not works on Windows
 
