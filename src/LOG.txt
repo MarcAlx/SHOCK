@@ -1,0 +1,143 @@
+Marc-Alexandre Blanchard
+
+[Session 1]
+Debut sur la base Application.py
+Debut de l'architecture (niveau txt, tile)
+Déplacement basique gauche droite avec couleur alternative
+Controle Fleches
+
+[Session 2]
+Design personnage 
+Design tile
+Design premier niveau
+Déplacement avec pas alternatif
+Gestion Collision
+Mise en place du saut
+
+[Session 3]
+Redesign de certaines tuiles
+Controle clavier via event
+Ajout touches Z Q S D et SPACE
+Déplacement avec retour au pas initiale
+Déplacement evenementiel
+Renommage des tiles
+Optimisation du saut
+
+[Session 4]
+Ajout d'item
+Récupération d'item
+Animation saut
+
+[Session 5]
+Ajout des piece
+Design piece
+Animation de pièce
+Récuperation pièce
+Modification de la hitbox item
+Méthode d'initialisation
+Casquette
+
+[Session 6]
+Ajout Coeur
+Design Coeur
+Animation Coeur
+Récuperation Coeur
+Barre de vie
+Gestion vie
+Affichage 7 segments du nombre de pièce
+
+[Session 7]
+Simplification du Load
+Le niveau devient -> Background + Level + items
+Ajout du shebang Mac OS Python 3.3
+
+[Session 8]
+Le niveau devient -> Background 1 + Background 0 + Level + items
+Modification de tiles
+
+[Session 9]
+Optimisation (Animations,assignations,drawings)
+Ajout Eclair
+Design Eclair
+Animation Eclair
+Ajout de la boule d'énergie
+Lancer de la boule d'énergie mappé sur les touches : fleche du bas et X
+
+[Session 10]
+Changement organisation dossier -> levels/N° du level/Fichiers
+Creation enemy
+Destruction via boule de l'enemy
+Perte de vie si collision avec l'enemy
+Animation enemies
+Création de variables pour les valeurs temporelles
+Reinitialisation en cas de perte de vie -> retour au debut du niveau
+Ajout d'une fonction de screenshot mappé sur la touche T
+
+[Session 11]
+Marche et Saut non concurrent (protected)
+
+[Session 12]
+Centrage de la fenetre au centre de l'écran
+Ajout pop-up About mappé sur A
+Screenshot mappé sur P
+Sauvegarde de screenshot dans "screenshots" sécurisé avec test existence
+Ajout pop-up Help & How-To mappé sur H
+Ajout fonction sauvegarde mappé sur J
+Ajout fonction de chargement de sauvegarde mappé sur K
+
+[Session 13]
+Mouvement lateral infini des enemies
+La boule d'énergie peut désormais détruire 2 énemies s'ils sont superposé l'un l'autre
+Le nom des fichiers d'un niveau n'inclus plus le numéro du niveau
+Ajout soleil
+Design soleil
+Ajout nuage
+Design nuage
+
+[Session 14]
+Correction d'un bug d'affichage après un load de sauvegarde
+Correction d'un bug de propagation de boule
+
+[Session 15]
+Le jeu à un nom : SHOCK
+Load désormais mappé sur L
+Ajout d'une fonction restart mappé sur R
+Ajout d'un Startscreen
+
+[Session 16]
+Ajout d'une pause - Permet egalement de faire des mouvement de précision ;)
+
+[Session 17]
+Mouvement horizontal infini des enemies au niveau 2
+
+[Session 18]
+Création d'un icon
+Création d'un .app via platypus
+
+[Session 19]
+Lecture de son Mac OS only
+
+[Session 20]
+Ajout d'une barre des menus
+D'une notion de version
+
+[Session 21]
+Design arbre
+
+[Session 22]
+Ajustement temporel
+Supression de la pause
+Debut design Level 2
+Création base Level 3
+Sound design CoinSound
+Chaque niveau à desormais sa musique
+Design musique Level 1 & 2
+Finalisation LVL 1
+
+[Session 23]
+Ajustement temporel
+Gestion du cmd-q
+Finalisation LVL 2
+Finalisation LVL 3
+Création d'un Endscreen
+Sound design Heart, Lightning, Jump, Enemies
